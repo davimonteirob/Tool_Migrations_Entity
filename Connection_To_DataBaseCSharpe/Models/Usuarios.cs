@@ -17,10 +17,8 @@ namespace Connection_To_DataBaseCSharpe.Models
             Idade = idade;
             Endereço = endereço;
         }
-        //Chave primária identificada como 'Id' no Entity
 
-        //quando criamos uma primary key aqui, não precisamos repetir para o sql server a mesma definição.
-        [Key]//indica que esta propriedade "IdUsuario" é uma chave primária.
+        [Key]
         public int IdUsuario { get; set; }
 
         public string Nome { get; set; }

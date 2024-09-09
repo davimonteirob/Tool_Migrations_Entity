@@ -9,7 +9,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Connection_To_DataBaseCSharpe.Models
 {
-    internal class MenuUser
+    public class MenuUser
     {
         private readonly GerenciadorContext _context;
 

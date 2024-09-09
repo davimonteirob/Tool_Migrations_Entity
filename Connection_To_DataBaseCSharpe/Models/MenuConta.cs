@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Connection_To_DataBaseCSharpe.Models
 {
-    internal class MenuConta
+    public class MenuConta
     {
         public void Menu()
         {

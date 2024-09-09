@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Connection_To_DataBaseCSharpe.DataBase
 {
-    internal class DAL<T> where T : class
+    public class DAL<T> where T : class
     {
 
         private readonly GerenciadorContext context;

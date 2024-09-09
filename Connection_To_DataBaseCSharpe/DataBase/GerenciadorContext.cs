@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Connection_To_DataBaseCSharpe.DataBase
 {
-    internal class GerenciadorContext: DbContext
+    public class GerenciadorContext: DbContext
     {                                     
         public DbSet<Usuarios> Usuarios { get; set; }
 
